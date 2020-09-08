@@ -81,6 +81,9 @@ h1 {
 }
 
 .nav {
+    background-color: #EBEBEB;
+    height: 57px;
+
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -88,18 +91,24 @@ h1 {
     list-style: none;
 }
 
-.nav li {
-    width:167px;
-    text-align: center;
-}
-
 .nav li a {
     font-family: "Fira Sans", sans-serif;
     font-size: 12px;
-    background-color: #EBEBEB;
     color: #A9A19E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 167px;
     height: 57px;
+}
+
+#home {
+    color: #000000;
+}
+
+.nav li a:hover {
+    background-color: #afafaf;
+    color: #000000;
 }
 
 img {
@@ -111,8 +120,4 @@ img {
     top: 265px;
     margin-right: 0px;
 
-}
-
-#home {
-    color: #000000;
 }
