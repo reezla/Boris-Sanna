@@ -5,7 +5,7 @@
 }
 
 .art1 {
-    grid-column-start: ;
+    grid-column-start: 1;
     grid-column-end: 1;
     grid-row-start: 1;
     grid-row-end: 3;
@@ -60,13 +60,20 @@ a {
 }
 
 .nav li {
-    
+    width:167px;
+    text-align: center;
 }
 
 .nav li a {
     font-family: "Fira Sans", sans-serif;
+    font-size: 12px;
     background-color: #EBEBEB;
+    color: #A9A19E;
     width: 167px;
     height: 57px;
 
+}
+
+#home {
+    color: #000000;
 }
