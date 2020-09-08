@@ -7,11 +7,7 @@
 
 .art1 {
     grid-column-start: 1;
-<<<<<<< HEAD
-    grid-column-end: 1;
-=======
     grid-column-end: 4;
->>>>>>> 16d6a451ce5dd0178fbbd2c8e7c285015b141339
     grid-row-start: 1;
     grid-row-end: 3;
     background: #C7DDEA;
@@ -84,8 +80,7 @@ h1 {
     text-decoration: none;
 }
 
-
-<<<<<<< HEAD
+.nav {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -105,7 +100,8 @@ h1 {
     color: #A9A19E;
     width: 167px;
     height: 57px;
-=======
+}
+
 img {
     position: static;
 
@@ -114,7 +110,6 @@ img {
     left: 317px;
     top: 265px;
     margin-right: 0px;
->>>>>>> 16d6a451ce5dd0178fbbd2c8e7c285015b141339
 
 }
 
