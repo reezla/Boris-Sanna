@@ -1,1 +1,49 @@
-html
+.top {
+    display: grid;
+    grid-template-columns: repat(6, fr1);
+    grid-auto-rows: 280px;
+}
+
+.art1 {
+    grid-column-start: ;
+    grid-column-end: 1;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    background: #C7DDEA;
+}
+
+.art2 {
+    background: #F17949;
+}
+
+.art3 {
+    background: #FAB131;
+}
+
+img {
+    width: 286px;
+    height: 279px;
+    left: 417px;
+    top: 265px;
+    position: absolute;
+
+}
+
+.p1 {
+    width: 268px;
+    height: 103px;
+    left: 324px;
+    top: 172px;
+}
+
+a {
+    width: 131px;
+    height: 39px;
+    left: 324px;
+    top: 326px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.1);
+    border-radius: 100px;
+    text-decoration: none;
+}
