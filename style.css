@@ -4,8 +4,11 @@
     grid-auto-rows: 300px;
     grid-auto-columns: 16%;
 }
-
+body {
+    margin: 0px;
+}
 .art1 {
+
     grid-column-start: 1;
     grid-column-end: 4;
     grid-row-start: 1;
@@ -33,9 +36,10 @@
 }
 
 
+
 h1 {
     margin-left: 105px;
-    margin-top: 71px;
+    margin-top: 69px;
     margin-bottom: 0px;
     width: 314px;
     height: 101px;
@@ -53,20 +57,55 @@ h1 {
     color: #000000;
 }
 
+h2 {
+    
+    
+    text-align: center;
+    color: white;
+    font-size: 32px;
+    margin-top: 10px;
+   
+}
+
 .p1 {
+    margin-block-start: 0em;
+    margin-block-end: 0em;
     margin-left: 105px;
     margin-top: 0px;
     width: 268px;
     height: 103px;
-    left: 324px;
-    top: 172px;
-    
     font-family: Fira Sans;
-    
     font-weight: 500;
     font-size: 14px;
-    line-height: 24px;  
+    line-height: 24px; 
+    color: rgba(0, 0, 0, 0.6); 
 }
+
+.p-art2 {
+    height: 0px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.6);
+    margin-top: 105px;
+}
+
+
+.p1 em {
+    color: white;
+    font-style: normal;
+}
+
+img {
+    
+   
+
+    width: 286px;
+    height: 279px;
+    
+    margin-left: 198px;
+    margin-bottom: 100px;
+
+}
+
 
 .art1-button {
     
@@ -123,14 +162,3 @@ h1 {
     color: #000000;
 }
 
-img {
-    
-   
-
-    width: 286px;
-    height: 279px;
-    left: 317px;
-    top: 265px;
-    margin-left: 198px;
-
-}
