@@ -1,42 +1,78 @@
 .top {
     display: grid;
     grid-template-columns: repat(6, fr1);
-    grid-auto-rows: 280px;
+    grid-auto-rows: 300px;
+    grid-auto-columns: 16%;
 }
 
 .art1 {
     grid-column-start: 1;
+<<<<<<< HEAD
     grid-column-end: 1;
+=======
+    grid-column-end: 4;
+>>>>>>> 16d6a451ce5dd0178fbbd2c8e7c285015b141339
     grid-row-start: 1;
     grid-row-end: 3;
     background: #C7DDEA;
+    
 }
 
 .art2 {
+    grid-column-start: 4;
+    grid-column-end: 7;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    
     background: #F17949;
+
 }
 
 .art3 {
+    grid-column-start: 4;
+    grid-column-end: 7;
+    grid-row-start: 2;
+    grid-row-end: 2;
     background: #FAB131;
 }
 
-img {
-    width: 286px;
-    height: 279px;
-    left: 417px;
-    top: 265px;
-    position: absolute;
 
+h1 {
+    margin-left: 105px;
+    margin-top: 71px;
+    margin-bottom: 0px;
+    width: 314px;
+    height: 101px;
+    left: 324px;
+    top: 71px;
+    font-family: Frank Ruhl Libre;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 45px;
+    line-height: 100%;
+    /* or 45px */
+
+    letter-spacing: -0.02em;
+
+    color: #000000;
 }
 
 .p1 {
+    margin-left: 105px;
+    margin-top: 0px;
     width: 268px;
     height: 103px;
     left: 324px;
     top: 172px;
+    
+    font-family: Fira Sans;
+    
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;  
 }
 
-a {
+.art1-button {
     width: 131px;
     height: 39px;
     left: 324px;
@@ -48,10 +84,8 @@ a {
     text-decoration: none;
 }
 
-.nav {
-    background-color: #EBEBEB;
-    height: 57px;
 
+<<<<<<< HEAD
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -71,6 +105,16 @@ a {
     color: #A9A19E;
     width: 167px;
     height: 57px;
+=======
+img {
+    position: static;
+
+    width: 286px;
+    height: 279px;
+    left: 317px;
+    top: 265px;
+    margin-right: 0px;
+>>>>>>> 16d6a451ce5dd0178fbbd2c8e7c285015b141339
 
 }
 
