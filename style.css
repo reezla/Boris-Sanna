@@ -82,15 +82,12 @@ h1 {
 
 
 img {
-    display: flex;
+    position: static;
 
     width: 286px;
     height: 279px;
     left: 317px;
     top: 265px;
     margin-right: 0px;
-    
-    
-    
 
 }
