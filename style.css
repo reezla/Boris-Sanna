@@ -1,37 +1,51 @@
-.top {
-    display: grid;
-    grid-template-columns: repat(6, fr1);
-    grid-auto-rows: 300px;
-    grid-auto-columns: 16%;
-}
+    
+
 body {
     margin: 0px;
 }
-.art1 {
 
+.top {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-auto-rows: 100px;
+    
+    
+    margin-block-start: 0rem;
+    margin-block-end: 0rem;
+    margin-inline-start: 0rem;
+    margin-inline-end: 0rem;
+}
+/* Kan inte göra bilden .family responsiv :/ */
+.art1 {
     grid-column-start: 1;
     grid-column-end: 4;
-    grid-row-start: 1;
-    grid-row-end: 3;
+    grid-row-start: 1 ;
+    grid-row-end: 7;
+    
     background: #C7DDEA;
     
+  
 }
 
 .art2 {
     grid-column-start: 4;
     grid-column-end: 7;
     grid-row-start: 1;
-    grid-row-end: 1;
+    grid-row-end: 4;
+    
+   
     
     background: #F17949;
 
 }
 
 .art3 {
-    grid-column-start: 4;
+    grid-column-start:4;
     grid-column-end: 7;
-    grid-row-start: 2;
-    grid-row-end: 2;
+    grid-row-start: 4;
+    grid-row-end: 7;
+   
+    
     background: #FAB131;
 }
 
@@ -45,7 +59,7 @@ h1 {
     height: 101px;
     left: 324px;
     top: 71px;
-    font-family: Frank Ruhl Libre;
+    font-family: "Frank Ruhl Libre", serif;
     font-style: normal;
     font-weight: 900;
     font-size: 45px;
@@ -57,13 +71,14 @@ h1 {
     color: #000000;
 }
 
-h2 {
+.a-art2 {
     
-    
+    display: grid;
     text-align: center;
     color: white;
-    font-size: 32px;
+    font-size: 44px;
     margin-top: 10px;
+    text-decoration: none;
    
 }
 
@@ -74,14 +89,21 @@ h2 {
     margin-top: 0px;
     width: 268px;
     height: 103px;
-    font-family: Fira Sans;
+    left: 324px;
+    top: 172px;
+    
+    font-family: "Fira Sans", sans-serif;
+    
     font-weight: 500;
     font-size: 14px;
     line-height: 24px; 
     color: rgba(0, 0, 0, 0.6); 
 }
 
-.p-art2 {
+.p-art2, .p-art3 {
+    font-family: Fira Sans;
+    font-style: normal;
+    font-weight: bold;
     height: 0px;
     text-align: center;
     color: rgba(0, 0, 0, 0.6);
@@ -94,15 +116,20 @@ h2 {
     font-style: normal;
 }
 
-img {
+.family {
     
-   
-
+    margin-inline-start: 15rem;
+    margin-block-start: 1rem;
     width: 286px;
     height: 279px;
-    
+    left: 317px;
+    top: 265px;
     margin-left: 198px;
-    margin-bottom: 100px;
+    
+    
+    
+    
+    
 
 }
 
@@ -116,7 +143,7 @@ img {
     text-decoration: none;
     padding: 20px;
 
-    font-family: Fira Sans;
+    font-family: "Fira Sans", sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 20px;
@@ -127,9 +154,12 @@ img {
     justify-content: center;
     width: 131px;
     margin-left: 105px;
+    
 
 
 }
+
+
 
 .nav {
     background-color: #EBEBEB;
@@ -162,3 +192,104 @@ img {
     color: #000000;
 }
 
+.flex-container-gray {
+    display: flex;
+    flex-direction: column;
+    height: 612px;
+    background-color: #A9A19E;
+    position:relative;
+}
+
+.white {
+    color: #FFFFFF;
+    position: absolute;
+    margin: 0;
+    top: 103px;
+    left: 107px;
+    height: auto;
+}
+
+.lorem-ipsum1 {
+    height: 237px;
+    width: 280px;
+    font-family: "Fira Sans", sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: -0.02em;
+    color: rgba(0, 0, 0, 0.6);
+    align-self: flex-end;
+    margin: 0;
+    position:absolute;
+    bottom: 272px;
+    right: 129px;
+}
+
+#join-now {
+    text-align: center;
+    align-items: center;
+    margin: 0;
+    font-size: 10px;
+    position: absolute;
+    bottom: 272px;
+    left: 107px;
+    width: 100px;;
+}
+
+.flex-container2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-container2 figure {
+    width: 25%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #7bc5f0;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.flex-container2 figure img {
+    width: 236px;
+    height: 150px;
+    object-fit: cover;
+    object-position: top;
+   
+    background-color: #FAB131;
+    left: 0;
+    top: 0;
+    margin: 0;
+    margin-bottom: 50px;
+    border-radius: 5px;
+}
+
+.flex-container2 figure .child-img {
+    background-color:#C7DDEA;
+
+}
+
+.about-us {
+    
+    width: 100%;
+    height: 700px;
+    background-color: #FAB131;
+    
+}
+
+h4 {
+    
+    bottom: 250px;
+    text-align: center;
+    color:white;
+    font-size: 35px;
+   
+}
+
+.flex-container2 {
+    position: relative;
+    
+    
+}
