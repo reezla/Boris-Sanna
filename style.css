@@ -116,7 +116,7 @@ h1 {
     font-style: normal;
 }
 
-.family {
+.family-img {
     
     margin-inline-start: 15rem;
     margin-block-start: 1rem;
@@ -157,7 +157,7 @@ h1 {
 .nav {
     background-color: #EBEBEB;
     height: 57px;
-
+    margin-bottom: 0;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -237,39 +237,66 @@ h1 {
     z-index: 2;
     position: absolute;
     height: 50px;
-    
-
-    
     }
 
 .flex-container2 figure {
-    width: 25%;
+    width: 20%;
+    height: 800%;
     display:flex;
     flex-direction: column;
     align-items: center;
-    background-color: #7bc5f0;
+    background-color: white;
     border-radius: 5px;
     padding: 20px;
 }
 
 .flex-container2 figure img {
-    width: 236px;
-    height: 150px;
-    object-fit: cover;
+    width: 100%;
+    height: 45%;
+    object-fit: contain;
     object-position: top;
-   
     background-color: #FAB131;
     left: 0;
     top: 0;
     margin: 0;
-    margin-bottom: 50px;
+    margin-top: -45px;
     border-radius: 5px;
 }
 
 .flex-container2 figure .child-img {
     background-color:#C7DDEA;
+}
+
+.flex-container2 figure .adult-img {
+    background-color: #FAB131;
+}
+
+.flex-container2 figure .old-img {
+    background-color: #F17949;
+}
+
+h3 {
+margin-top: 40px;
+font-family: Frank Ruhl Libre;
+font-style: normal;
+font-weight: bold;
+font-size: 19px;
+line-height: 125%;
+color: rgba(0, 0, 0, 0.9);
 
 }
+
+.flex-container2 figure p {
+    font-family: Fira Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 164%;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.4);
+
+}
+
 
 .about-us {
     display: grid;
@@ -278,7 +305,6 @@ h1 {
     height: 700px;
     background-color: #FAB131;
     position: absolute;
-    
     z-index: 0;
     
 }
