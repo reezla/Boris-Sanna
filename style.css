@@ -16,13 +16,14 @@ body {
     margin-inline-start: 0rem;
     margin-inline-end: 0rem;
 }
+
 /* Kan inte göra bilden .family responsiv :/ */
 .art1 {
     grid-column-start: 1;
     grid-column-end: 4;
     grid-row-start: 1 ;
     grid-row-end: 7;
-    
+    position: relative;
     background: #C7DDEA;
     
   
@@ -33,9 +34,6 @@ body {
     grid-column-end: 7;
     grid-row-start: 1;
     grid-row-end: 4;
-    
-   
-    
     background: #F17949;
 
 }
@@ -45,8 +43,6 @@ body {
     grid-column-end: 7;
     grid-row-start: 4;
     grid-row-end: 7;
-   
-    
     background: #FAB131;
 }
 
@@ -56,10 +52,7 @@ h1 {
     font-weight: 900;
     font-size: 45px;
     line-height: 100%;
-    /* or 45px */
-
     letter-spacing: -0.02em;
-
     color: #000000; 
 }
 
@@ -73,16 +66,25 @@ h1 {
     top: 71px;
 }
 
+
 .a-art2 {
     
-    display: grid;
+    display: flex;
     text-align: center;
-    color: white;
+    justify-content: center;
     font-size: 44px;
     margin-top: 10px;
+    
+
     text-decoration: none;
-   
+    font-family: Frank Ruhl Libre;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 41px;
+    letter-spacing: -0.02em;
+    color: #FFFFFF; 
 }
+
 
 p {
     font-family: "Fira Sans", sans-serif;
@@ -102,6 +104,7 @@ p {
     height: 103px;
     left: 324px;
     top: 172px;
+    padding: 0;
 }
 
 .p-art2, .p-art3 {
@@ -121,27 +124,23 @@ p {
 }
 
 .family-img {
-    
-    margin-inline-start: 15rem;
-    margin-block-start: 1rem;
-    width: 286px;
-    height: 279px;
-    left: 317px;
-    top: 265px;
-    margin-left: 198px;
+   height: 50%;
+   position: absolute;
+   margin-left: 40%;
+   z-index: 1;
+   bottom: -20px;
+
 
 }
 
 
 .art1-button {
     
-
     background: #FFFFFF;
     box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.1);
     border-radius: 100px;
     text-decoration: none;
     padding: 20px;
-
     font-family: "Fira Sans", sans-serif;
     font-style: normal;
     font-weight: bold;
@@ -149,11 +148,11 @@ p {
     line-height: 8px;
     display: flex;
     color: black;
-    
+    margin-top: 20px;
     justify-content: center;
     width: 131px;
     margin-left: 105px;
-    
+    z-index: 0;
 }
 
 
@@ -230,7 +229,7 @@ p {
     position: absolute;
     bottom: 272px;
     left: 107px;
-    width: 100px;;
+    width: 100px;
 }
 
 .flex-container2 {
@@ -243,7 +242,7 @@ p {
     height: 50px;
     width: 70%;
     left: 15%;
-    }
+}
 
 .flex-container2 figure {
     width: 25%;
@@ -255,6 +254,8 @@ p {
     border-radius: 5px;
     padding: 20px;
     margin: 1rem;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
 }
 
 .flex-container2 figure img {
@@ -280,17 +281,17 @@ p {
 
 .flex-container2 figure .old-img {
     background-color: #F17949;
+    
 }
 
 h3 {
-margin-top: 40px;
-font-family: "Frank Ruhl Libre";
-font-style: normal;
-font-weight: bold;
-font-size: 19px;
-line-height: 125%;
-color: rgba(0, 0, 0, 0.9);
-
+    margin-top: 40px;
+    font-family: "Frank Ruhl Libre";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 19px;
+    line-height: 125%;
+    color: rgba(0, 0, 0, 0.9);
 }
 
 .flex-container2 figure p {
@@ -335,7 +336,6 @@ h4 {
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-
     color: rgba(0, 0, 0, 0.6);
     font-family: "Fira Sans", sans-serif;
     font-style: normal;
@@ -410,13 +410,17 @@ h2 {
     display:flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: center;   
 }
 
 
 .take-me-up a p {
     padding: 0;
-    margin-bottom: 1rem;
+    margin-bottom: 1rem;  
+}
+
+a {
+    text-decoration: none;
 }
 
 footer {
@@ -426,7 +430,6 @@ footer {
     display: flex;
     justify-content: center;
     align-items: end;
-
 }
 
 footer p {
