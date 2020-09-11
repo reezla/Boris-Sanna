@@ -1,8 +1,9 @@
-    
-
 body {
-    margin: 0px;
+    margin: 0 auto;
+    width: 80%;
+    background-color: #e5e5e5;
 }
+
 
 .top {
     display: grid;
@@ -49,16 +50,7 @@ body {
     background: #FAB131;
 }
 
-
-
 h1 {
-    margin-left: 105px;
-    margin-top: 69px;
-    margin-bottom: 0px;
-    width: 314px;
-    height: 101px;
-    left: 324px;
-    top: 71px;
     font-family: "Frank Ruhl Libre", serif;
     font-style: normal;
     font-weight: 900;
@@ -68,7 +60,17 @@ h1 {
 
     letter-spacing: -0.02em;
 
-    color: #000000;
+    color: #000000; 
+}
+
+.boris, .white {
+    margin-left: 105px;
+    margin-top: 69px;
+    margin-bottom: 0px;
+    width: 314px;
+    height: 101px;
+    left: 324px;
+    top: 71px;
 }
 
 .a-art2 {
@@ -82,6 +84,15 @@ h1 {
    
 }
 
+p {
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px; 
+    color: rgba(0, 0, 0, 0.6); 
+    padding: 1rem;
+}
+
 .p1 {
     margin-block-start: 0em;
     margin-block-end: 0em;
@@ -91,17 +102,10 @@ h1 {
     height: 103px;
     left: 324px;
     top: 172px;
-    
-    font-family: "Fira Sans", sans-serif;
-    
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 24px; 
-    color: rgba(0, 0, 0, 0.6); 
 }
 
 .p-art2, .p-art3 {
-    font-family: Fira Sans;
+    font-family: "Fira Sans", sans-serif;
     font-style: normal;
     font-weight: bold;
     height: 0px;
@@ -237,10 +241,12 @@ h1 {
     z-index: 2;
     position: absolute;
     height: 50px;
+    width: 70%;
+    left: 15%;
     }
 
 .flex-container2 figure {
-    width: 20%;
+    width: 25%;
     height: 800%;
     display:flex;
     flex-direction: column;
@@ -248,6 +254,7 @@ h1 {
     background-color: white;
     border-radius: 5px;
     padding: 20px;
+    margin: 1rem;
 }
 
 .flex-container2 figure img {
@@ -277,7 +284,7 @@ h1 {
 
 h3 {
 margin-top: 40px;
-font-family: Frank Ruhl Libre;
+font-family: "Frank Ruhl Libre";
 font-style: normal;
 font-weight: bold;
 font-size: 19px;
@@ -287,7 +294,7 @@ color: rgba(0, 0, 0, 0.9);
 }
 
 .flex-container2 figure p {
-    font-family: Fira Sans;
+    font-family: "Fira Sans";
     font-style: normal;
     font-weight: bold;
     font-size: 12px;
@@ -304,7 +311,7 @@ color: rgba(0, 0, 0, 0.9);
     width: 100%;
     height: 700px;
     background-color: #FAB131;
-    position: absolute;
+    position: relative;
     z-index: 0;
     
 }
@@ -330,10 +337,98 @@ h4 {
     margin-right: auto;
 
     color: rgba(0, 0, 0, 0.6);
-    font-family: Fira Sans;
+    font-family: "Fira Sans", sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 20px;
 }
 
+.grid-container3 {
+    position: relative;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    margin:0;
+    padding:0;
+    text-align: center;
+    background-color: #FFFFFF;
+}
+
+.grid-container3 li {
+    list-style: none;
+    position: relative;
+    width:100%;
+    height: 280px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.grid-item-how h1 {
+    color: rgba(0, 0, 0, 0.8);
+    margin:0;
+    align-self: center;
+    max-width: 280px;
+    padding: 0 1rem;
+}
+
+.h1-container {
+    align-self: center;
+}
+
+h2 {
+    font-family: "Frank Ruhl Libre", serif;
+    color: rgba(0, 0, 0, 0.4);
+    margin: 0;
+    font-size: 35px;
+    align-self: flex-start;
+    position: absolute;
+    top: 0;
+    padding: 2rem;
+}
+
+.grid-item-how {
+    background-color: #C7DDEA;
+}
+
+.grid-item-02 {
+    background-color: #e5e5e5;
+}
+
+.grid-item-04 {
+    background-color: #F17949;
+}
+
+.take-me-up {
+    width: 100%;
+    background-color: #A9A19E;
+    position: sticky;
+    bottom: 0;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.take-me-up a p {
+    padding: 0;
+    margin-bottom: 1rem;
+}
+
+footer {
+    height: 200px;
+    width: 100%;
+    background-color: #777574;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+
+}
+
+footer p {
+    color: #FFFFFF;
+}
