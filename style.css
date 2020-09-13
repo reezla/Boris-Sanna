@@ -131,6 +131,7 @@ p {
    bottom: -20px;
 
 
+
 }
 
 
@@ -269,6 +270,7 @@ p {
     margin: 0;
     margin-top: -45px;
     border-radius: 5px;
+    min-height: 60vn;
 }
 
 .flex-container2 figure .child-img {
